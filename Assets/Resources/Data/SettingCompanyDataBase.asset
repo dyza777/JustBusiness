@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594881d4c4114095b1f936345d780f8d, type: 3}
+  m_Name: SettingCompanyDataBase
+  m_EditorClassIdentifier: 
+  setting:
+  - nameCompany: Company 1
+    revenueDelay: 3
+    basicCost: 3
+    basicIncome: 3
+    currentLevel: 1
+    businessImprovement:
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 1"
+      price: 50
+      income: 50
+      isPurchased: 0
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 2"
+      price: 400
+      income: 100
+      isPurchased: 0
+  - nameCompany: Company 2
+    revenueDelay: 6
+    basicCost: 40
+    basicIncome: 40
+    currentLevel: 0
+    businessImprovement:
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 1"
+      price: 1200
+      income: 100
+      isPurchased: 0
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 2"
+      price: 4000
+      income: 200
+      isPurchased: 0
+  - nameCompany: Company 3
+    revenueDelay: 10
+    basicCost: 200
+    basicIncome: 200
+    currentLevel: 0
+    businessImprovement:
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 1"
+      price: 6000
+      income: 100
+      isPurchased: 0
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 2"
+      price: 20000
+      income: 150
+      isPurchased: 0
+  - nameCompany: Company 4
+    revenueDelay: 17
+    basicCost: 1000
+    basicIncome: 1000
+    currentLevel: 0
+    businessImprovement:
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 1"
+      price: 15000
+      income: 100
+      isPurchased: 0
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 2"
+      price: 50000
+      income: 200
+      isPurchased: 0
+  - nameCompany: Company 5
+    revenueDelay: 30
+    basicCost: 5000
+    basicIncome: 5000
+    currentLevel: 0
+    businessImprovement:
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 1"
+      price: 100000
+      income: 200
+      isPurchased: 0
+    - titleName: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 2"
+      price: 500000
+      income: 400
+      isPurchased: 0
